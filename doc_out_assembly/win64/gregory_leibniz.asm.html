@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>IDA - benchmark.o.clang_win64.3.exe C:\Users\User\dev\cpp\fatec_benchmark_pi\benchmark.o.clang_win64.3.exe</title>
+</head>
+<body bgcolor="#ffffff">
+<span style="white-space: pre; font-family: Consolas; color: blue; background: #ffffff">
+
+<span style="color:black">.text:000000014000B6A0
+.text:000000014000B6A0 </span><span style="color:gray">; =============== S U B R O U T I N E =======================================
+</span><span style="color:black">.text:000000014000B6A0
+.text:000000014000B6A0
+.text:000000014000B6A0 </span>gregory_leibniz <span style="color:black">proc near               </span><span style="color:green">; CODE XREF: .text:0000000140004953↑j
+</span><span style="color:black">.text:000000014000B6A0                                         </span><span style="color:#8080ff">; DATA XREF: .pdata:ExceptionDir↓o
+</span><span style="color:black">.text:000000014000B6A0
+.text:000000014000B6A0 </span><span style="color:green">var_18          </span><span style="color:navy">= xmmword ptr </span><span style="color:#008040">-18h
+</span><span style="color:black">.text:000000014000B6A0
+.text:000000014000B6A0                 </span><span style="color:navy">sub     rsp, </span><span style="color:green">18h
+</span><span style="color:black">.text:000000014000B6A4                 </span><span style="color:navy">movapd  [rsp+</span><span style="color:green">18h</span><span style="color:navy">+</span><span style="color:green">var_18</span><span style="color:navy">], xmm6
+</span><span style="color:black">.text:000000014000B6A9                 </span><span style="color:navy">rdtsc
+</span><span style="color:black">.text:000000014000B6AB                 </span><span style="color:navy">mov     r8, rdx
+</span><span style="color:black">.text:000000014000B6AE                 </span><span style="color:navy">shl     r8, </span><span style="color:green">20h
+</span><span style="color:black">.text:000000014000B6B2                 </span><span style="color:navy">or      r8, rax
+</span><span style="color:black">.text:000000014000B6B5                 </span><span style="color:navy">xor     r9d, r9d
+</span><span style="color:black">.text:000000014000B6B8                 </span><span style="color:navy">cmp     dword ptr [rcx], </span><span style="color:green">0
+</span><span style="color:black">.text:000000014000B6BB                 </span><span style="color:navy">jz      short loc_14000B727
+</span><span style="color:black">.text:000000014000B6BD                 </span><span style="color:navy">xorpd   xmm0, xmm0
+</span><span style="color:black">.text:000000014000B6C1                 </span><span style="color:navy">movsd   xmm1, cs:</span>__real@3ff0000000000000
+<span style="color:black">.text:000000014000B6C9                 </span><span style="color:navy">movapd  xmm2, cs:</span>__xmm@80000000000000008000000000000000
+<span style="color:black">.text:000000014000B6D1                 </span><span style="color:navy">movsd   xmm3, cs:</span>__real@4000000000000000
+<span style="color:black">.text:000000014000B6D9                 </span><span style="color:navy">movapd  xmm4, xmm1
+</span><span style="color:black">.text:000000014000B6DD                 </span><span style="color:navy">movapd  xmm5, xmm1
+</span><span style="color:black">.text:000000014000B6E1                 </span><span style="color:navy">db      </span><span style="color:green">2Eh
+</span><span style="color:black">.text:000000014000B6E1                 </span><span style="color:navy">nop     word ptr [rax+rax+</span><span style="color:#008040">00000000h</span><span style="color:navy">]
+</span><span style="color:black">.text:000000014000B6EB                 </span><span style="color:navy">nop     dword ptr [rax+rax+</span><span style="color:#008040">00h</span><span style="color:navy">]
+</span><span style="color:black">.text:000000014000B6F0
+.text:000000014000B6F0 </span><span style="color:navy">loc_14000B6F0:                          </span><span style="color:green">; CODE XREF: gregory_leibniz+71↓j
+</span><span style="color:black">.text:000000014000B6F0                 </span><span style="color:navy">movapd  xmm6, xmm1
+</span><span style="color:black">.text:000000014000B6F4                 </span><span style="color:navy">divsd   xmm6, xmm5
+</span><span style="color:black">.text:000000014000B6F8                 </span><span style="color:navy">mulsd   xmm6, xmm4
+</span><span style="color:black">.text:000000014000B6FC                 </span><span style="color:navy">xorpd   xmm4, xmm2
+</span><span style="color:black">.text:000000014000B700                 </span><span style="color:navy">addsd   xmm5, xmm3
+</span><span style="color:black">.text:000000014000B704                 </span><span style="color:navy">addsd   xmm0, xmm6
+</span><span style="color:black">.text:000000014000B708                 </span><span style="color:navy">rdtsc
+</span><span style="color:black">.text:000000014000B70A                 </span><span style="color:navy">add     r9d, </span><span style="color:green">1
+</span><span style="color:black">.text:000000014000B70E                 </span><span style="color:navy">cmp     r9d, [rcx]
+</span><span style="color:black">.text:000000014000B711                 </span><span style="color:navy">jb      short loc_14000B6F0
+</span><span style="color:black">.text:000000014000B713                 </span><span style="color:navy">shl     rdx, </span><span style="color:green">20h
+</span><span style="color:black">.text:000000014000B717                 </span><span style="color:navy">or      rax, rdx
+</span><span style="color:black">.text:000000014000B71A                 </span><span style="color:navy">mulsd   xmm0, cs:</span>__real@4010000000000000
+<span style="color:black">.text:000000014000B722                 </span><span style="color:navy">mov     r9, rax
+</span><span style="color:black">.text:000000014000B725                 </span><span style="color:navy">jmp     short loc_14000B72B
+</span><span style="color:black">.text:000000014000B727 </span><span style="color:gray">; ---------------------------------------------------------------------------
+</span><span style="color:black">.text:000000014000B727
+.text:000000014000B727 </span><span style="color:navy">loc_14000B727:                          </span><span style="color:green">; CODE XREF: gregory_leibniz+1B↑j
+</span><span style="color:black">.text:000000014000B727                 </span><span style="color:navy">xorpd   xmm0, xmm0
+</span><span style="color:black">.text:000000014000B72B
+.text:000000014000B72B </span><span style="color:navy">loc_14000B72B:                          </span><span style="color:green">; CODE XREF: gregory_leibniz+85↑j
+</span><span style="color:black">.text:000000014000B72B                 </span><span style="color:navy">sub     r9, r8
+</span><span style="color:black">.text:000000014000B72E                 </span><span style="color:navy">mov     cs:</span>delta_t<span style="color:navy">, r9
+</span><span style="color:black">.text:000000014000B735                 </span><span style="color:navy">movaps  xmm6, [rsp+</span><span style="color:green">18h</span><span style="color:navy">+</span><span style="color:green">var_18</span><span style="color:navy">]
+</span><span style="color:black">.text:000000014000B739                 </span><span style="color:navy">add     rsp, </span><span style="color:green">18h
+</span><span style="color:black">.text:000000014000B73D                 </span><span style="color:navy">retn
+</span><span style="color:black">.text:000000014000B73D </span>gregory_leibniz <span style="color:black">endp
+.text:000000014000B73D
+.text:000000014000B73D </span><span style="color:gray">; ---------------------------------------------------------------------------
+</span></body></html>

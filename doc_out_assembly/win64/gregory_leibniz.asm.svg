@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="1048.36" height="1123.96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generated at Thu Jul  2 07:07:01 2020 by:
+  Graph::Easy v0.76
+  Graph::Easy::As_svg v0.27
+-->
+
+<title>Graph of .text:000000014000B6A0...text:000000014000B73E</title>
+<defs>
+ <!-- filled arrow -->
+ <g id="ahf" stroke-linecap="round" stroke-width="1">
+  <polygon points="-8,-4, 1,0, -8,4"/>
+ </g>
+
+ <!-- class definitions -->
+ <style type="text/css"><![CDATA[
+ .edge {
+  end: back;
+  font-size: 13px;
+  start: front;
+  stroke: black;
+  text-align: center;
+ }
+ .graph {
+  font-size: 16px;
+  text-align: center;
+  x-vcg-finetuning: no;
+  x-vcg-layout_algorithm: mindepth;
+  x-vcg-layout_downfactor: 100;
+  x-vcg-layout_nearfactor: 0;
+  x-vcg-layout_upfactor: 0;
+  x-vcg-manhattan_edges: yes;
+  x-vcg-xlspace: 12;
+  x-vcg-yspace: 30;
+ }
+ .node {
+  text-anchor: left;
+  font-size: 16px;
+  text-align: center;
+ }
+ ]]></style>
+</defs>
+
+<!-- graph background with border (mainly for printing) -->
+<rect x="0.5" y="0.5" width="1046.36" height="1121.96" fill="white" stroke="white" />
+
+  <!-- graph label -->
+  <text class="graph" x="524.18" y="25" style="font-family:serif" fill="#000000" text-anchor="middle">Graph of .text:000000014000B6A0...text:000000014000B73E</text>
+
+<g id="10" class="edge">
+ <!-- from 2 to 2 -->
+ <!-- selfloop, eastwards -->
+ <path d="M925.4 556.28L938.2 556.28L938.2 728.68L925.4 728.68" fill="none" stroke="#008000" />
+ <use fill="#008000" stroke="#008000" xlink:href="#ahf" transform="translate(925.4 728.68)rotate(180)"/>
+ <text x="944" y="642" style="font-family:sans-serif;font-size:12.8px" fill="#008000" stroke="none" text-anchor="start">true</text>
+</g>
+
+<g id="11" class="edge">
+ <!-- from 3 to 5 -->
+ <!-- vertical -->
+ <line x1="343.5" y1="940.36" x2="343.5" y2="990.56" stroke="#000000" />
+ <use fill="#000000" stroke="#000000" xlink:href="#ahf" transform="translate(343.5 991.56)rotate(90)"/>
+</g>
+
+<g id="12" class="edge">
+ <!-- from 4 to 5 -->
+ <!-- north/east corner -->
+ <g stroke="#000000">
+  <line x1="796" y1="485.88" x2="796" y2="511.98" />
+  <line x1="795.5" y1="511.48" x2="919" y2="511.48" />
+ </g>
+
+ <!-- horizontal -->
+ <line x1="919" y1="511.48" x2="1004.76" y2="511.48" stroke="#000000" />
+
+ <!-- south/west corner -->
+ <g stroke="#000000">
+  <line x1="1017.56" y1="510.98" x2="1017.56" y2="543.48" />
+  <line x1="1004.76" y1="511.48" x2="1018.06" y2="511.48" />
+ </g>
+
+ <!-- vertical -->
+ <line x1="1017.56" y1="543.48" x2="1017.56" y2="933.96" stroke="#000000" />
+
+ <!-- north/west corner -->
+ <g stroke="#000000">
+  <line x1="1017.56" y1="933.96" x2="1017.56" y2="966.46" />
+  <line x1="1004.76" y1="965.96" x2="1018.06" y2="965.96" />
+ </g>
+
+ <!-- horizontal -->
+ <line x1="919" y1="965.96" x2="1004.76" y2="965.96" stroke="#000000" />
+
+ <!-- south/east corner -->
+ <g stroke="#000000">
+  <line x1="796" y1="965.46" x2="796" y2="990.56" />
+  <line x1="795.5" y1="965.96" x2="919" y2="965.96" />
+ </g>
+ <use fill="#000000" stroke="#000000" xlink:href="#ahf" transform="translate(796 991.56)rotate(90)"/>
+</g>
+
+<g id="6" class="edge">
+ <!-- from 0 to 1 -->
+ <!-- vertical -->
+ <line x1="343.5" y1="239.4" x2="343.5" y2="308.03" stroke="#ff0000" />
+ <use fill="#ff0000" stroke="#ff0000" xlink:href="#ahf" transform="translate(343.5 309.03)rotate(90)"/>
+ <text x="349.4" y="275" style="font-family:sans-serif;font-size:12.8px" fill="#ff0000" stroke="none" text-anchor="start">false</text>
+</g>
+
+<g id="7" class="edge">
+ <!-- from 0 to 4 -->
+ <!-- vertical -->
+ <line x1="796" y1="239.4" x2="796" y2="308.03" stroke="#008000" />
+ <use fill="#008000" stroke="#008000" xlink:href="#ahf" transform="translate(796 309.03)rotate(90)"/>
+ <text x="802.4" y="275" style="font-family:sans-serif;font-size:12.8px" fill="#008000" stroke="none" text-anchor="start">true</text>
+</g>
+
+<g id="8" class="edge">
+ <!-- from 1 to 2 -->
+ <!-- vertical -->
+ <line x1="343.5" y1="485.88" x2="343.5" y2="536.08" stroke="#000000" />
+ <use fill="#000000" stroke="#000000" xlink:href="#ahf" transform="translate(343.5 537.08)rotate(90)"/>
+</g>
+
+<g id="9" class="edge">
+ <!-- from 2 to 3 -->
+ <!-- vertical -->
+ <line x1="343.5" y1="747.88" x2="343.5" y2="816.51" stroke="#ff0000" />
+ <use fill="#ff0000" stroke="#ff0000" xlink:href="#ahf" transform="translate(343.5 817.51)rotate(90)"/>
+ <text x="349.4" y="783" style="font-family:sans-serif;font-size:12.8px" fill="#ff0000" stroke="none" text-anchor="start">false</text>
+</g>
+
+<g id="0" class="node">
+ <!-- gregory_leibniz:\nsub     rsp, 18h\nmovapd  [rsp+18h+var_18], xmm6\nrdtsc\nmov     r8, rdx\nshl     r8, 20h\nor      r8, rax\nxor     r9d, r9d\ncmp     dword ptr [rcx], 0\njz      short loc_14000B727, rect -->
+ <rect fill="#ffffff" height="197" stroke="#000000" width="901" x="17.5" y="35.5" />
+ <text x="25" y="59" style="font-family:serif" fill="#000000" text-anchor="start">
+  <tspan x="468" y="57">gregory_leibniz:</tspan>
+  <tspan x="25" y="75">sub     rsp, 18h</tspan>
+  <tspan x="25" y="93">movapd  [rsp+18h+var_18], xmm6</tspan>
+  <tspan x="25" y="111">rdtsc</tspan>
+  <tspan x="25" y="129">mov     r8, rdx</tspan>
+  <tspan x="25" y="147">shl     r8, 20h</tspan>
+  <tspan x="25" y="165">or      r8, rax</tspan>
+  <tspan x="25" y="183">xor     r9d, r9d</tspan>
+  <tspan x="25" y="201">cmp     dword ptr [rcx], 0</tspan>
+  <tspan x="25" y="219">jz      short loc_14000B727</tspan>
+ </text>
+</g>
+
+<g id="1" class="node">
+ <!-- xorpd   xmm0, xmm0\nmovsd   xmm1, cs:__real@3ff0000000000000\nmovapd  xmm2, cs:__xmm@80000000000000008000000000000000\nmovsd   xmm3, cs:__real@4000000000000000\nmovapd  xmm4, xmm1\nmovapd  xmm5, xmm1\nnop     word ptr [rax+rax+00000000h]\nnop     dword ptr [rax+rax+00h], rect -->
+ <rect fill="#ffffff" height="161" stroke="#000000" width="652" x="17.5" y="317.98" />
+ <text x="25" y="341" style="font-family:serif" fill="#000000" text-anchor="start">
+  <tspan x="343" y="339">xorpd   xmm0, xmm0</tspan>
+  <tspan x="25" y="357">movsd   xmm1, cs:__real@3ff0000000000000</tspan>
+  <tspan x="25" y="375">movapd  xmm2, cs:__xmm@80000000000000008000000000000000</tspan>
+  <tspan x="25" y="393">movsd   xmm3, cs:__real@4000000000000000</tspan>
+  <tspan x="25" y="411">movapd  xmm4, xmm1</tspan>
+  <tspan x="25" y="429">movapd  xmm5, xmm1</tspan>
+  <tspan x="25" y="447">nop     word ptr [rax+rax+00000000h]</tspan>
+  <tspan x="25" y="465">nop     dword ptr [rax+rax+00h]</tspan>
+ </text>
+</g>
+
+<g id="2" class="node">
+ <!-- movapd  xmm6, xmm1\ndivsd   xmm6, xmm5\nmulsd   xmm6, xmm4\nxorpd   xmm4, xmm2\naddsd   xmm5, xmm3\naddsd   xmm0, xmm6\nrdtsc\nadd     r9d, 1\ncmp     r9d, [rcx]\njb      short loc_14000B6F0, rect -->
+ <rect fill="#ffffff" height="197" stroke="#000000" width="901" x="17.5" y="543.98" />
+ <text x="25" y="567" style="font-family:serif" fill="#000000" text-anchor="start">
+  <tspan x="468" y="565">movapd  xmm6, xmm1</tspan>
+  <tspan x="25" y="583">divsd   xmm6, xmm5</tspan>
+  <tspan x="25" y="601">mulsd   xmm6, xmm4</tspan>
+  <tspan x="25" y="619">xorpd   xmm4, xmm2</tspan>
+  <tspan x="25" y="637">addsd   xmm5, xmm3</tspan>
+  <tspan x="25" y="655">addsd   xmm0, xmm6</tspan>
+  <tspan x="25" y="673">rdtsc</tspan>
+  <tspan x="25" y="691">add     r9d, 1</tspan>
+  <tspan x="25" y="709">cmp     r9d, [rcx]</tspan>
+  <tspan x="25" y="727">jb      short loc_14000B6F0</tspan>
+ </text>
+</g>
+
+<g id="3" class="node">
+ <!-- shl     rdx, 20h\nor      rax, rdx\nmulsd   xmm0, cs:__real@4010000000000000\nmov     r9, rax\njmp     short loc_14000B72B, rect -->
+ <rect fill="#ffffff" height="107" stroke="#000000" width="652" x="17.5" y="826.46" />
+ <text x="25" y="849" style="font-family:serif" fill="#000000" text-anchor="start">
+  <tspan x="343" y="847">shl     rdx, 20h</tspan>
+  <tspan x="25" y="865">or      rax, rdx</tspan>
+  <tspan x="25" y="883">mulsd   xmm0, cs:__real@4010000000000000</tspan>
+  <tspan x="25" y="901">mov     r9, rax</tspan>
+  <tspan x="25" y="919">jmp     short loc_14000B72B</tspan>
+ </text>
+</g>
+
+<g id="4" class="node">
+ <!-- xorpd   xmm0, xmm0, rect -->
+ <rect fill="#ffffff" height="161" stroke="#000000" width="245" x="673.5" y="317.98" />
+ <text x="681" y="404" style="font-family:serif" fill="#000000" text-anchor="start">xorpd   xmm0, xmm0</text>
+</g>
+
+<g id="5" class="node">
+ <!-- sub     r9, r8\nmov     cs:delta_t, r9\nmovaps  xmm6, [rsp+18h+var_18]\nadd     rsp, 18h\nretn, rect -->
+ <rect fill="#ffffff" height="107" stroke="#000000" width="901" x="17.5" y="998.46" />
+ <text x="25" y="1021" style="font-family:serif" fill="#000000" text-anchor="start">
+  <tspan x="468" y="1019">sub     r9, r8</tspan>
+  <tspan x="25" y="1037">mov     cs:delta_t, r9</tspan>
+  <tspan x="25" y="1055">movaps  xmm6, [rsp+18h+var_18]</tspan>
+  <tspan x="25" y="1073">add     rsp, 18h</tspan>
+  <tspan x="25" y="1091">retn</tspan>
+ </text>
+</g>
+
+</svg>
